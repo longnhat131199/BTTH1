@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tạo form và các điều khiển trên form</title>
+	<style type="text/css">
+		h1{
+			text-align: center;
+		}
+		table,td{
+			border: 1px solid purple;
+			border-collapse: collapse;
+		}
+		table{
+			background-color: #aee0fc;
+			margin:auto;
+		}
+		input{
+			margin:3px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Đăng nhập</h1>
+	<table>
+		<tr>
+			<td>Mã người dùng:</td>
+			<td><input id="taikhoan" type="text"></td>
+		</tr>
+		<tr>
+			<td>Mật khẩu:</td>
+			<td><input type="password"></td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center"><input type="button" value="Đồng ý" onclick="abc.innerText=taikhoan.value"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><div style="text-align:center" id="abc"></div></td>
+		</tr>
+	</table>
+</body>
+</html>
